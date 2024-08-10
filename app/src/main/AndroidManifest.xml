@@ -13,10 +13,27 @@
         android:theme="@style/Theme.ComposeCamp"
         tools:targetApi="31" >
         <activity
-            android:name=".ModifiersActivity"
-            android:exported="false"
+            android:name=".Unit4_ImageCard.ImageCardActivity"
+            android:exported="true"
+            android:label="@string/title_activity_image_card"
+            android:theme="@style/Theme.ComposeCamp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Unit3_Modifiers.ModifiersActivity"
+            android:exported="true"
             android:label="@string/title_activity_modifiers"
-            android:theme="@style/Theme.ComposeCamp" />
+            android:theme="@style/Theme.ComposeCamp" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Unit2_RowsColumns.MainActivity"
             android:exported="true"
