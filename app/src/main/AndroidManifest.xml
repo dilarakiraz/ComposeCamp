@@ -13,15 +13,26 @@
         android:theme="@style/Theme.ComposeCamp"
         tools:targetApi="31">
         <activity
-            android:name=".Unit7_MultiSelectLazyColumn.MainActivity7"
+            android:name=".Unit8_SplashScreenWithCompose.MainActivity8"
             android:exported="true"
-            android:label="@string/title_activity_main7"
-            android:theme="@style/Theme.ComposeCamp">
+            android:label="@string/title_activity_main8"
+            android:theme="@style/Theme.ComposeCamp" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
+        </activity>
+        <activity
+            android:name=".Unit7_MultiSelectLazyColumn.MainActivity7"
+            android:exported="true"
+            android:label="@string/title_activity_main7"
+            android:theme="@style/Theme.ComposeCamp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".Unit6_TextfieldButtonsShowingSnackbars.MainActivity6"
