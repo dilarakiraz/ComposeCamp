@@ -13,10 +13,32 @@
         android:theme="@style/Theme.ComposeCamp"
         tools:targetApi="31">
         <activity
+            android:name=".Unit7_MultiSelectLazyColumn.MainActivity7"
+            android:exported="true"
+            android:label="@string/title_activity_main7"
+            android:theme="@style/Theme.ComposeCamp">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".Unit6_TextfieldButtonsShowingSnackbars.MainActivity6"
+            android:exported="true"
+            android:label="@string/title_activity_main6"
+            android:theme="@style/Theme.ComposeCamp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Unit5_State.MainActivity5"
             android:exported="true"
             android:label="@string/title_activity_main5"
-            android:theme="@style/Theme.ComposeCamp" >
+            android:theme="@style/Theme.ComposeCamp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

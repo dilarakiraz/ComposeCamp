@@ -4,4 +4,6 @@
     <string name="title_activity_modifiers">ModifiersActivity</string>
     <string name="title_activity_image_card">ImageCardActivity</string>
     <string name="title_activity_main5">MainActivity5</string>
+    <string name="title_activity_main6">MainActivity6</string>
+    <string name="title_activity_main7">MainActivity7</string>
 </resources>
